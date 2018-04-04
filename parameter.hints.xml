@@ -1,0 +1,9 @@
+<application>
+  <component name="ParameterNameHintsSettings">
+    <blacklists>
+      <blacklist language="Java">
+        <added pattern="android.text.format.Time.after(that)" />
+      </blacklist>
+    </blacklists>
+  </component>
+</application>
