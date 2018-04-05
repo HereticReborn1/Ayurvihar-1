@@ -3,7 +3,10 @@
     <blacklists>
       <blacklist language="Java">
         <added pattern="android.text.format.Time.after(that)" />
+        <added pattern="android.widget.ListView.setAdapter(adapter)" />
       </blacklist>
+      <blacklist language="Groovy" />
+      <blacklist language="Kotlin" />
     </blacklists>
   </component>
 </application>
