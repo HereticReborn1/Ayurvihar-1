@@ -4,6 +4,7 @@
       <blacklist language="Java">
         <added pattern="android.text.format.Time.after(that)" />
         <added pattern="android.widget.ListView.setAdapter(adapter)" />
+        <added pattern="android.view.LayoutInflater.inflate(resource,root)" />
       </blacklist>
       <blacklist language="Groovy" />
       <blacklist language="Kotlin" />
